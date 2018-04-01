@@ -12,6 +12,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="{{ asset('mdb/css/bootstrap.min.css') }}" rel="stylesheet"> -->
+    <!-- Material Design Bootstrap -->
+    <!-- <link href="{{ asset('mdb/css/mdb.min.css') }}" rel="stylesheet"> -->
+    <!-- Your custom styles (optional) -->
+    <!-- <link href="{{ asset('mdb/css/style.css') }}" rel="stylesheet"> -->
 </head>
 <body>
     <div id="app">
@@ -76,5 +84,13 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+
+    <script type="text/javascript" src="{{ asset('mdb/js/jquery-3.2.1.min.js') }}"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="{{ asset('mdb/js/popper.min.js') }}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="{{ asset('mdb/js/bootstrap.min.js') }}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="{{ asset('mdb/js/mdb.min.js') }}"></script>
 </body>
 </html>

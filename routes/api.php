@@ -30,9 +30,9 @@ Route::resource('phones','API\PhoneAPIController');
 
 //--------------------------------------------------------
 
+Route::post('login', 'API\PassportController@login');
+Route::post('register', 'API\PassportController@register');
 
-Route::post('login', 'API\UserAPIController@login');
-Route::post('register', 'API\UserAPIController@register');
 Route::group(['middleware' => 'auth:api'], function(){
-Route::post('details', 'API\UserAPIController@details');
+	Route::post('get-details', 'API\PassportController@getDetails');
 });
